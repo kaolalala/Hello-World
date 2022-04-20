@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-04-20T16:38:49.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" version="17.4.3" etag="gEdReUZ-vxHGNO5t9-7z" type="github"><diagram id="2AMend4IPMXEi0u2igc1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-20T16:44:16.576Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="w29WSVmyP1GPsCGSTOLY" version="17.4.3" type="github">
+  <diagram id="2AMend4IPMXEi0u2igc1" name="Page-1">
+    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B-yVIiR-qVWYfZZSTGWN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B-yVIiR-qVWYfZZSTGWN-1" target="B-yVIiR-qVWYfZZSTGWN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yVIiR-qVWYfZZSTGWN-1" value="node-xlsx读取excel表中的所有数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yVIiR-qVWYfZZSTGWN-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B-yVIiR-qVWYfZZSTGWN-2" target="B-yVIiR-qVWYfZZSTGWN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yVIiR-qVWYfZZSTGWN-2" value="通过typeorm拿到对应表的实体" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="140" width="265" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yVIiR-qVWYfZZSTGWN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B-yVIiR-qVWYfZZSTGWN-4" target="B-yVIiR-qVWYfZZSTGWN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yVIiR-qVWYfZZSTGWN-4" value="设置初始变量 i 代表遍历到的数组下标" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="251.25" y="210" width="227.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yVIiR-qVWYfZZSTGWN-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B-yVIiR-qVWYfZZSTGWN-6" target="B-yVIiR-qVWYfZZSTGWN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yVIiR-qVWYfZZSTGWN-6" value="根据表格中的顺序读取对应属性" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="280" width="245" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yVIiR-qVWYfZZSTGWN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B-yVIiR-qVWYfZZSTGWN-8" target="B-yVIiR-qVWYfZZSTGWN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yVIiR-qVWYfZZSTGWN-8" value="将数据插入表中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="360" width="235" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yVIiR-qVWYfZZSTGWN-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B-yVIiR-qVWYfZZSTGWN-10" target="B-yVIiR-qVWYfZZSTGWN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yVIiR-qVWYfZZSTGWN-18" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B-yVIiR-qVWYfZZSTGWN-13">
+          <mxGeometry x="-0.1375" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B-yVIiR-qVWYfZZSTGWN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="B-yVIiR-qVWYfZZSTGWN-10" target="B-yVIiR-qVWYfZZSTGWN-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B-yVIiR-qVWYfZZSTGWN-15" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B-yVIiR-qVWYfZZSTGWN-14">
+          <mxGeometry x="0.0792" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B-yVIiR-qVWYfZZSTGWN-10" value="当前是否为最后一条数据" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="222.5" y="450" width="285" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yVIiR-qVWYfZZSTGWN-12" value="结束" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yVIiR-qVWYfZZSTGWN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B-yVIiR-qVWYfZZSTGWN-16" target="B-yVIiR-qVWYfZZSTGWN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yVIiR-qVWYfZZSTGWN-16" value="i ++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
