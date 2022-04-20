@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2022-04-20T16:21:56.667Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" version="17.4.3" etag="136juLv13CXZ3bfUvjrF" type="github"><diagram id="eKVyJORGSIPfN9CJ3fcc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-20T16:26:37.490Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="9ngsdeYKeSjU6yq6yCIZ" version="17.4.3" type="github">
+  <diagram id="eKVyJORGSIPfN9CJ3fcc" name="Page-1">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="210" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="170" width="220" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-3" value="前端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-4" value="后台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PJPB55DMpHAkoLNch1Kg-6" target="PJPB55DMpHAkoLNch1Kg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-6" value="获取输入的ID、密码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PJPB55DMpHAkoLNch1Kg-9" target="PJPB55DMpHAkoLNch1Kg-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="280" />
+              <mxPoint x="290" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-9" value="对密码进行md5处理" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PJPB55DMpHAkoLNch1Kg-11" target="PJPB55DMpHAkoLNch1Kg-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-11" value="对密码进行hmac处理" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PJPB55DMpHAkoLNch1Kg-13" target="PJPB55DMpHAkoLNch1Kg-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-13" value="在数据库中查找对应信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PJPB55DMpHAkoLNch1Kg-15" target="PJPB55DMpHAkoLNch1Kg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-22" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PJPB55DMpHAkoLNch1Kg-18">
+          <mxGeometry x="0.5077" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PJPB55DMpHAkoLNch1Kg-15" target="PJPB55DMpHAkoLNch1Kg-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-23" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PJPB55DMpHAkoLNch1Kg-21">
+          <mxGeometry x="0.5059" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-15" value="返回的信息类型" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-17" value="进入主页" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PJPB55DMpHAkoLNch1Kg-20" value="提示错误信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
