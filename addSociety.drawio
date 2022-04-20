@@ -1,1 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2022-04-20T16:46:46.729Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" version="17.4.3" etag="arE7oOcW37fz59F4dcq8" type="github"><diagram id="ZNIqiGyVtxrRBHjfjBXT">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-20T16:52:28.123Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="jGK9ux5sUjW_rMhtR5pd" version="17.4.3" type="github">
+  <diagram id="ZNIqiGyVtxrRBHjfjBXT" name="Page-1">
+    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RAeN65xRjkpz7gQYGkuQ-1" target="RAeN65xRjkpz7gQYGkuQ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-1" value="用户填写相应新社团信息后点击提交" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="30" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RAeN65xRjkpz7gQYGkuQ-4" target="RAeN65xRjkpz7gQYGkuQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-8" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RAeN65xRjkpz7gQYGkuQ-7">
+          <mxGeometry x="-0.3125" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RAeN65xRjkpz7gQYGkuQ-4" target="RAeN65xRjkpz7gQYGkuQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-13" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RAeN65xRjkpz7gQYGkuQ-11">
+          <mxGeometry x="-0.1911" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-4" value="&lt;span&gt;前端验证是否必填项都已填&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="130" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RAeN65xRjkpz7gQYGkuQ-6" target="RAeN65xRjkpz7gQYGkuQ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-6" value="发送请求到后台" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RAeN65xRjkpz7gQYGkuQ-10" target="RAeN65xRjkpz7gQYGkuQ-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-10" value="做出提醒后补充填写" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RAeN65xRjkpz7gQYGkuQ-15" target="RAeN65xRjkpz7gQYGkuQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-22" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RAeN65xRjkpz7gQYGkuQ-21">
+          <mxGeometry x="-0.2522" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RAeN65xRjkpz7gQYGkuQ-15" target="RAeN65xRjkpz7gQYGkuQ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-25" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RAeN65xRjkpz7gQYGkuQ-24">
+          <mxGeometry x="-0.4669" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-15" value="判断是否已存在同名社团" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316.25" y="370" width="217.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-20" value="返回错误提示" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RAeN65xRjkpz7gQYGkuQ-23" target="RAeN65xRjkpz7gQYGkuQ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-23" value="在社团表中插入状态为申请中的响应社团&lt;br&gt;&lt;br&gt;在申请表中插入对应的申请数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="490" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RAeN65xRjkpz7gQYGkuQ-27" value="返回请求成功信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
